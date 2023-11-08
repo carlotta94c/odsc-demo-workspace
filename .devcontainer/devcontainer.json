@@ -1,7 +1,7 @@
 {
   "name": "Python 3",
   "build": {
-    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "dockerfile": "Dockerfile/Dockerfile",
     "context": "..",
     "args": { 
       "VARIANT": "3.8",
@@ -12,14 +12,18 @@
     "--network",
     "host"
   ],
-  "settings": { 
-    "terminal.integrated.shell.linux": "/bin/bash"
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        "ms-python.python",
+        "github.copilot-chat",
+        "github.copilot"
+      ]
+    }
   },
   "forwardPorts": [8888],
-  "postCreateCommand": "pip install -r requirements.txt",
-  "extensions": [
-    "ms-python.python",
-    "github.copilot-chat",
-    "github.copilot"
-  ]
+  "postCreateCommand": "pip install -r requirements.txt"
 }
