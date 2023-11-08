@@ -1,0 +1,23 @@
+{
+  "name": "Python 3",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "..",
+    "args": { 
+      "VARIANT": "3.8",
+      "INSTALL_NODE": "false"
+    }
+  },
+  "runArgs": [
+    "--network",
+    "host"
+  ],
+  "settings": { 
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [8888],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "extensions": [
+    "ms-python.python"
+  ]
+}
