@@ -30,7 +30,7 @@ This will open your pre-configured environment on the browser.
 
 This project provides a workspace for a Jupyter Python notebook with a GitHub Codespaces configuration. It includes the installation of pandas, numpy, and scikit-learn libraries.
 
-## Setup
+### Setup
 
 1. Open this project in GitHub Codespaces. This will automatically create a development container with all the necessary dependencies installed.
 
@@ -40,7 +40,7 @@ This project provides a workspace for a Jupyter Python notebook with a GitHub Co
 
 4. Open `my_notebook.ipynb` to start working on the notebook.
 
-## Usage
+### Usage
 
 You can use this notebook to write and run Python code. The pandas, numpy, and scikit-learn libraries are already installed, so you can import them directly into your code.
 
@@ -56,7 +56,7 @@ You can also add markdown cells to document your code and explain your analysis.
 
 Remember to save your changes before closing the notebook.
 
-## Dependencies
+### Dependencies
 
 This project uses the following Python packages:
 
