@@ -2,8 +2,6 @@
 
 This repository contains the code for the [Supercharging your data science projects with GitHub Tools](https://app.aiplus.training/courses/Supercharging-your-Data-Science-projects-with-GitHub-tools) course on [AI+ Training](https://app.aiplus.training/).
 
-![Webinar Banner](webinarBanner.png)
-
 This project has been created by customizing an AI generated workspace template. To get a similar template for your own projects, you can use the **@workspace** agent on [GitHub Copilot Chat](https://docs.github.com/en/copilot/github-copilot-chat/about-github-copilot-chat), together with the **/new** command.
 
 Learn more about this and other features covered in the webinar by reading the [accompanying blog post](https://opendatascience.com/supercharging-your-data-science-projects-with-github-tools/).
