@@ -4,7 +4,7 @@
     "dockerfile": "Dockerfile/Dockerfile",
     "context": "..",
     "args": { 
-      "VARIANT": "3.8",
+      "VARIANT": "3.9",
       "INSTALL_NODE": "false"
     }
   },
